@@ -1,0 +1,5 @@
+l_s = list(input() for _ in range(int(input())))
+m = 0
+for i in l_s:
+    m = max(m, l_s.count(i))
+print(m)
